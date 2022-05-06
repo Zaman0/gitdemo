@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-21T13:21:38 EDT" name="Default suite" finished-at="2022-04-21T13:22:19 EDT" duration-ms="41129">
+    <groups>
+    </groups>
+    <test started-at="2022-04-21T13:21:38 EDT" name="Default test" finished-at="2022-04-21T13:22:19 EDT" duration-ms="41129">
+      <class name="Academy.HomePage">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@3ee37e5a]" started-at="2022-04-21T13:21:38 EDT" name="basePageNavigation" data-provider="getData" finished-at="2022-04-21T13:22:05 EDT" duration-ms="27196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@3ee37e5a]" started-at="2022-04-21T13:22:05 EDT" name="basePageNavigation" data-provider="getData" finished-at="2022-04-21T13:22:19 EDT" duration-ms="13897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123573]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
